@@ -3,7 +3,10 @@ import React,{useState} from 'react'
 function UseStateErrorEx() {
     let title="Random Title";  //its initial value is random title
     const handleClick = ()=>{
+
+        title = "It's MrSharma";
         console.log(title);
+        
     }
     return (
         <React.Fragment>
