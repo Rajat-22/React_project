@@ -1,11 +1,11 @@
 import React from "react";
-import useStateErrorEx from './Tutorial/useStateErrorEx'
-i
+import UseStateErrorEx from './Tutorial/UseStateErrorEx'
+
 function App() {
   return (
     <div className='container'>
       <h2>Adavnce React Js</h2>
-      <useStateErrorEx />
+      <UseStateErrorEx />
     </div>
     
     
