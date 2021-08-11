@@ -3,13 +3,14 @@ import React from "react";
 // import UseStateBasic from "./Tutorial/UseStateBasic";
 // import UseStateArray from "./Tutorial/UseStateArray"
 // import UseStateObject from "./Tutorial/UseStateObject";
-import UsestateCounter from "./Tutorial/UsestateCounter";
+// import UsestateCounter from "./Tutorial/UsestateCounter";
+import UseEffectBasic from "./Tutorial/UseEffectBasic";
 
 function App() {
   return (
     <div className='container'>
       <h2>Adavnce React Js</h2>
-      <UsestateCounter />
+      <UseEffectBasic />
     </div>
     
     
