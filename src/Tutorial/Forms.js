@@ -10,7 +10,7 @@ import React, { useState } from 'react'
 function Forms() {
   const [firstName, setFirstName] = useState("");
   const [email, setEmail] = useState("");
-  
+
   const handleSubmit = (e) => {
     e.preventDefault();  // this is used to prevent the default behaviour of the browser
     console.log("Hello");   // it will show in the console after submit by the button
@@ -22,12 +22,14 @@ function Forms() {
         {/* here we use onsubmit which works same as onclick in the button  */}
           <div className='form-control'>
             <lable htmlFor="FirstName">Name :</lable>
-            <input type="text" id="firstname" name='firstname'></input>
+            <input type="text" id="firstname" name='firstname' value={firstName}
+             onChange={(e) => setFirstName(e.target.value)}></input>
           </div>
 
           <div className='form-control'>
             <lable htmlFor="email">Email :</lable>
-            <input type="text" id="email" name='email'></input>
+            <input type="text" id="email" name='email' value={email}
+             onChange={(e) => setEmail(e.target.value)}></input>
           </div>
 
           <button type="submit">Submit</button>
