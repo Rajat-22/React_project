@@ -17,8 +17,8 @@ function Forms() {
     // console.log(firstName,email);   // it will show in the console after submit by the button
     if (firstName && email) {
       console.log('submit the value');
-      const person = { firstName, email };
-      // console.log(person);
+      const person = { id: new Date().getTime().toString(),firstName,email };
+      console.log(person);
       setPeople((people) => {
         return [...people, person];
       });
@@ -29,8 +29,6 @@ function Forms() {
     else {
       console.log('empty value');
     }
-
-
   }
   return (
     <>
@@ -55,7 +53,7 @@ function Forms() {
         {people.map((person, index) => {
           const{id,firstName, email} = person;
           return(
-          <div className="item">
+          <div className="item" key={id}>
             <h4>{firstName}</h4>
             <p>{email}</p>
           </div>

@@ -5,13 +5,13 @@ import React from "react";
 // import UseStateObject from "./Tutorial/UseStateObject";
 // import UsestateCounter from "./Tutorial/UsestateCounter";
 // import UseEffectBasic from "./Tutorial/UseEffectBasic";
-import Forms from "./Tutorial/Forms";
-
+// import Forms from "./Tutorial/Forms";
+import LeranJSON from "./Tutorial/LeranJSON";
 function App() {
   return (
     <div className='container'>
      
-      <Forms />
+      <LeranJSON />
     </div>
     
     
