@@ -1,10 +1,15 @@
 import React,{useState} from "react"
 // usestate is a named import so we must have it in the curly braces
 
+// some basic rules of all hooks basically any import/function that starts with use
+// components name must be in upper case
+// must be in the function/component body
+// 
+
 function UseStateBasic() {
     const [day, setDay] = useState("Today is Wed :(");
     const handleClick = () =>{
-        if(day === "Today is Wed :("){
+        if(day === "Today is Wed :("){      //use if else statement for loop in button
             setDay("and Tommorrow is Thu")
         }
         else{
