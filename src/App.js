@@ -9,7 +9,7 @@ import UseEffectBasic from "./Tutorial/UseEffectBasic";
 function App() {
   return (
     <div className='container'>
-      <h2>Adavnce React Js</h2>
+      <h2>Advance React Js</h2>
       <UseEffectBasic />
     </div>
     

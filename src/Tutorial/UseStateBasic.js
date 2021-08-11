@@ -4,7 +4,7 @@ import React,{useState} from "react"
 // some basic rules of all hooks basically any import/function that starts with use
 // components name must be in upper case
 // must be in the function/component body
-// 
+// cannot call it conditionally i.e. in if else or something like it
 
 function UseStateBasic() {
     const [day, setDay] = useState("Today is Wed :(");
