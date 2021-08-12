@@ -9,8 +9,8 @@ function LeranJSON() {
             header: {
                 ['content-type']: 'application/json'
             }
-        })
-    }
+        
+    })
     promise.then(response => {
         console.log(response) // this is used to show response from the user
     })
@@ -19,7 +19,7 @@ function LeranJSON() {
     })
     let c = b;
     console.log(b);
-
+    }
     return (
         <>
             <button type="button" className='btn' onClick={handleClick}>Post User</button>
