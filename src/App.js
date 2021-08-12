@@ -6,12 +6,13 @@ import React from "react";
 // import UsestateCounter from "./Tutorial/UsestateCounter";
 // import UseEffectBasic from "./Tutorial/UseEffectBasic";
 // import Forms from "./Tutorial/Forms";
-import LeranJSON from "./Tutorial/LeranJSON";
+// import LeranJSON from "./Tutorial/LeranJSON";
+import Index from "./Tutorial/Reducer/index";
 function App() {
   return (
     <div className='container'>
      
-      <LeranJSON />
+      <Index />
     </div>
     
     
