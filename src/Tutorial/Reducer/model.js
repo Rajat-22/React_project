@@ -1,6 +1,6 @@
 import React from 'react'
 
-function model() {
+function Model() {
     return (
         <>
          <h2>Model</h2>   
@@ -8,5 +8,5 @@ function model() {
     )
 }
 
-export default model
+export default Model
 
