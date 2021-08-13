@@ -12,6 +12,7 @@ function People() {
                   <div key={person.id} className="item">
                       <h4>{person.name}</h4>
                       <Link to={`/person/${person.id}`}>Learn More</Link>
+{/* link the id of the data file and create button learn more to show every person information on clicking the person id */}
                       </div>
               );
           })}  
