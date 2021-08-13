@@ -7,12 +7,14 @@ import React from "react";
 // import UseEffectBasic from "./Tutorial/UseEffectBasic";
 // import Forms from "./Tutorial/Forms";
 // import LeranJSON from "./Tutorial/LeranJSON";
-import Index from "./Tutorial/Reducer/index";
+// import Index from "./Tutorial/Reducer/index";
+
+import ReactRouterDom from "./Tutorial/React-Router/index"
 function App() {
   return (
     <div className='container'>
      
-      <Index />
+      <index />
     </div>
     
     
