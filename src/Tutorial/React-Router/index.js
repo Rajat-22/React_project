@@ -10,10 +10,10 @@ import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
 // respective links address we would also require some kind of switch to enable or disable our router
 function ReactRouterDom() {
     return (
-        <Router>
-           <NavBar />
-            <Switch>
-            <Route exact path="/">
+        <Router>   {/* open the router for creating various route */}
+           <NavBar />  {/* create nav bar at the top before switch */}
+            <Switch>    {/* create switch for switching between the pages */}
+            <Route exact path="/">  {/* write exact fro giving the exact path and open the route for every component */}
            <Home />
            </Route>
            <Route path="/about">
@@ -23,9 +23,7 @@ function ReactRouterDom() {
            <People />
            </Route>
             <Route path="/person/:id" childer={<Person/>}></Route>
-
-
-           <Route path="*">
+           <Route path="*">  {/* give * instead of path because for unfound page it shows the error page */}
            <Error />
            </Route>
            </Switch>
