@@ -11,24 +11,24 @@ import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
 function ReactRouterDom() {
     return (
         <Router>
-            <Route path="/">
+           <NavBar />
+            <Switch>
+            <Route exact path="/">
            <Home />
            </Route>
            <Route path="/about">
            <About />
            </Route>
-           <Route path="/error">
-           <Error />
-           </Route>
            <Route path="/people">
            <People />
            </Route>
-           <Route path="/">
-           <NavBar />
+            <Route path="/person/:id" childer={<Person/>}></Route>
+
+
+           <Route path="*">
+           <Error />
            </Route>
-           <Route path="/">
-           <Person />
-           </Route>
+           </Switch>
         </Router>
     )
 }

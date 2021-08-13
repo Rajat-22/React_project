@@ -9,12 +9,12 @@ import React from "react";
 // import LeranJSON from "./Tutorial/LeranJSON";
 // import Index from "./Tutorial/Reducer/index";
 
-import ReactRouterDom from "./Tutorial/React-Router/index"
+import ReactRouterDom from "./Tutorial/React-Router"
 function App() {
   return (
     <div className='container'>
-     
-      <index />
+       
+      <ReactRouterDom />
     </div>
     
     
