@@ -9,12 +9,13 @@ import React from "react";
 // import LeranJSON from "./Tutorial/LeranJSON";
 // import Index from "./Tutorial/Reducer/index";
 // import ReactRouterDom from "./Tutorial/React-Router"  // called the react router
- import PropDrilling from "./Tutorial/PropDrilling";
+// import PropDrilling from "./Tutorial/PropDrilling";
+import ContextAPI from "./Tutorial/Context";
 function App() {
   return (
     <div className='container'>
        
-      <PropDrilling />  
+      <ContextAPI />  
     </div>
     
     
